@@ -65,7 +65,7 @@ export default function About() {
             delivering seamless user experiences. Proficient in HTML, CSS,
             JavaScript, React, Next.js, and design tools like Figma. Experienced
             in Test-Driven Development (TDD) and contributing to web projects,
-            including an internship with one of Indonesia's top journalism
+            including an internship with one of Indonesia&apos;s top journalism
             platforms.
           </Typography>{" "}
         </motion.div>

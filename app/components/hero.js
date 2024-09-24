@@ -45,7 +45,7 @@ export default function Hero() {
               transition={{ duration: 0.5, delay: 0.5 }}
             >
               <Typography variant="paragraph" className="xl:text-4xl text-2xl">
-                Hello, I'm
+                Hello, I&apos;m
               </Typography>
             </motion.div>
             <motion.div

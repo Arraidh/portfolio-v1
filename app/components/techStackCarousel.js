@@ -67,7 +67,10 @@ export default function TechStackCarousel() {
         {techStackData.map((stack) => {
           return (
             <>
-              <SwiperSlide className="flex justify-center items-center transition-opacity duration-500 hover:!opacity-100 group-hover:opacity-50 my-auto">
+              <SwiperSlide
+                key={stack.img}
+                className="flex justify-center items-center transition-opacity duration-500 hover:!opacity-100 group-hover:opacity-50 my-auto"
+              >
                 <Tooltip content={stack.name}>
                   <img
                     src={stack.img}
